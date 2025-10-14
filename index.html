@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NomadVPN — Secure Global Access</title>
+<meta name="description" content="NomadVPN — pre-configured router + ProtonVPN. Access your home-country content on any device, no apps required. Secure, Swiss-based, no-logs, remote support.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="assets/logo.png" alt="NomadVPN logo" class="logo">
+      <span class="brand-text">NomadVPN</span>
+    </div>
+    <nav class="nav">
+      <a href="#how" class="nav-link">How it Works</a>
+      <a href="#benefits" class="nav-link">Benefits</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a href="#contact" class="nav-link cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner" data-aos="fade-up">
+      <div class="hero-copy">
+        <h1>Access your home-country internet — securely and instantly</h1>
+        <p>Pre-configured router + ProtonVPN. No apps required. Works on TVs, phones, laptops and all devices on your network. Swiss-grade privacy, audited no-logs policy.</p>
+        <div class="hero-ctas">
+          <a class="btn primary" href="#contact">Get Started — €30 / month</a>
+          <a class="btn secondary" href="#pricing">See Pricing</a>
+        </div>
+      </div>
+      <div class="hero-card" data-aos="zoom-in">
+        <h3>Plug & Play</h3>
+        <p>We deliver a TP-Link router pre-configured with ProtonVPN Business. Plug it in, connect to your internet and enjoy content from your home country on every device.</p>
+        <ul class="mini-features">
+          <li>Swiss technology • No logs</li>
+          <li>Remote management</li>
+          <li>Optimized for streaming</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="panel" data-aos="fade-up">
+    <div class="container">
+      <h2>How it works</h2>
+      <div class="steps">
+        <div class="step" data-aos="fade-right"><h3>1. We configure</h3><p>Router is pre-configured with your country exit and remote management.</p></div>
+        <div class="step" data-aos="fade-up"><h3>2. You plug</h3><p>Connect the router to your ISP and power it up. No apps or device changes needed.</p></div>
+        <div class="step" data-aos="fade-left"><h3>3. You enjoy</h3><p>All devices on the network use the chosen country IP — watch, browse and stay secure.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits" class="panel alt" data-aos="fade-up">
+    <div class="container">
+      <h2>Benefits</h2>
+      <div class="grid">
+        <div class="card" data-aos="flip-left"><h3>Zero apps</h3><p>No software installs — router-level VPN protection for all devices.</p></div>
+        <div class="card" data-aos="flip-left" data-aos-delay="100"><h3>Swiss privacy</h3><p>ProtonVPN Business — audited, independent and no-logs.</p></div>
+        <div class="card" data-aos="flip-left" data-aos-delay="200"><h3>Streaming ready</h3><p>Optimized for streaming with reliable speeds.</p></div>
+        <div class="card" data-aos="flip-left" data-aos-delay="300"><h3>Remote support</h3><p>We monitor and update remotely. Fast, effective assistance.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="panel" data-aos="fade-up">
+    <div class="container">
+      <h2>Pricing</h2>
+      <div class="pricing-grid">
+        <div class="price-card"><h3>Setup</h3><p class="price">€50</p><p>Includes TP-Link TL-R605 and configuration</p></div>
+        <div class="price-card recommended"><h3>Standard</h3><p class="price">€30 / month</p><p>ProtonVPN license, management and support</p></div>
+        <div class="price-card"><h3>Pro</h3><p class="price">€40 / month</p><p>Priority support and multi-country option</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="panel alt" data-aos="fade-up">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="accordion">
+        <button class="accordion-item">Do I need to install apps on my devices?</button>
+        <div class="accordion-panel"><p>No. The VPN runs on the router so all connected devices are protected automatically.</p></div>
+
+        <button class="accordion-item">Is this service legal?</button>
+        <div class="accordion-panel"><p>Yes. NomadVPN provides a legal VPN service. Customers must not use it for illegal activities.</p></div>
+
+        <button class="accordion-item">Can I change the exit country?</button>
+        <div class="accordion-panel"><p>Yes. Contact support and we will change your exit country based on availability and plan.</p></div>
+
+        <button class="accordion-item">What happens if I stop paying?</button>
+        <div class="accordion-panel"><p>Service will be suspended after agreed notice. Router remains in customer's possession but VPN credentials will be disabled.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="panel contact" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact & Signup</h2>
+      <p class="muted">Interested? Fill the form and we'll contact you within one business day.</p>
+
+      <!-- Netlify form: to receive submissions in Netlify, keep data-netlify="true" and form name.
+           To receive email notifications, configure notifications in your Netlify dashboard for this site. -->
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hidden"><label>Don't fill: <input name="bot-field"></label></p>
+
+        <label>Full name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Country you want the IP from
+          <select name="country">
+            <option value="pt">Portugal</option>
+            <option value="uk">United Kingdom</option>
+            <option value="de">Germany</option>
+            <option value="fr">France</option>
+            <option value="es">Spain</option>
+          </select>
+        </label>
+        <label>Message <textarea name="message" rows="4"></textarea></label>
+        <button type="submit" class="btn primary">Request Signup / Quote</button>
+      </form>
+
+      <p class="note">Form submissions will be captured by Netlify Forms. To receive email alerts at <strong>elviossousa@gmail.com</strong>, go to your Netlify site's Settings → Forms → Notifications and add your email as a recipient.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div>© 2025 NomadVPN — Swiss privacy, no-logs. All rights reserved.</div>
+    <div><a href="#privacy">Privacy Policy</a> • <a href="#terms">Terms</a></div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({duration:700, once:true});
+
+  // Accordion
+  document.addEventListener('DOMContentLoaded', function(){
+    var items = document.querySelectorAll('.accordion-item');
+    items.forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var panel = this.nextElementSibling;
+        var isOpen = panel.style.maxHeight;
+        // close all
+        document.querySelectorAll('.accordion-panel').forEach(function(p){ p.style.maxHeight = null; });
+        if(!isOpen){
+          panel.style.maxHeight = panel.scrollHeight + 'px';
+        }
+      });
+    });
+  });
+</script>
+</body>
+</html>
